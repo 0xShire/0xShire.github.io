@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Musings Of A Broke Egirl
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Low IQ 2D Human
+description: Low IQ 2D Human
 twitter_username: 0xShire
 github_username: 0xShire
 minimal_mistakes_skin: dark
@@ -62,28 +61,21 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://twitter.com/0xShire"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/0xShire"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+      url: "https://github.com/0xShire"
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/0xShire"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/0xShire"
 
 defaults:
   # _posts
