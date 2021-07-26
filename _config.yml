@@ -71,6 +71,9 @@ author:
     - label: "Tip Me"
       icon: "fas fa-fw fa-link"
       url: "https://opencollective.com/init0xshire"
+    - label: "Buy Me Coffee"
+      icon: "fas fa-fw fa-link"
+      url: "https://ko-fi.com/0xshire"
 footer:
   links:
     - label: "Twitter"
@@ -82,6 +85,9 @@ footer:
     - label: "Tip Me"
       icon: "fas fa-fw fa-link"
       url: "https://opencollective.com/init0xshire"
+    - label: "Buy Me Coffee"
+      icon: "fas fa-fw fa-link"
+      url: "https://ko-fi.com/0xshire"
 
 defaults:
   # _posts
