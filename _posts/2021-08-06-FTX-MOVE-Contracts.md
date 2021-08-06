@@ -1,6 +1,6 @@
 ---
 title: "FTX MOVE Contracts"
-date: 2019-08-06T09:22:30-05:00
+date: 2021-08-06T13:20:30-05:00
 categories:
   - blog
 tags:
