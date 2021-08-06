@@ -8,10 +8,10 @@ tags:
   - MOVE
 ---
 
-##What are MOVE contracts?
+## What are MOVE contracts?
 MOVE contracts are a volatility derivative offered by FTX.  Each MOVE contract expires to the absolute value of the amount the underlying asset (BTC) moved on the traded timeframe.  If BTC opens the trading day at $35,000 and closes the day at $36,500, the daily BTC MOVE contract will expire at a value of $1,500.  If BTC falls from $36,500 to $33,000 the next day, for example, that daily MOVE contract would expire to $3,500.
 
-##MOVE Contract Types
+## MOVE Contract Types
 MOVE contracts are offered in three varieties on FTX—daily, weekly, and quarterly.
 Daily MOVE contracts expire to the absolute value of the distance BTC has moved from open to close in a single day.  The ticker for each daily MOVE contract is BTC-MOVE-[EXPIRY].  For example, BTC-MOVE-0805 is the daily BTC MOVE contract expiring at the daily close of August 5th. 
 
@@ -19,21 +19,21 @@ Weekly MOVE contracts expire to the absolute value of the distance BTC has moved
 
 Quarterly MOVE contracts expire to the absolute value of the distance BTC has moved from open to close in a roughly-three-month period. The ticker is BTC-MOVE-[YEARQ#].  For example, BTC-MOVE-2021Q3 is the quarterly BTC MOVE contract expiring at the daily close of September 24th (Q3), 2021.  
 
-##How do MOVE contracts work?
+## How do MOVE contracts work?
 Consider a daily MOVE contract such as BTC-MOVE-0806. This contract is available to be traded during the previous day (0805) as a futures contract.  At the end of the proper contract day (0806), it will expire to the absolute value of the difference between BTC’s open and close price for the assigned day.  Because price is determined by the absolute value of the move, this can be considered a non-directional trade.  
 
-##MOVE Expiry Prices
+## MOVE Expiry Prices
 MOVE products expire to the absolute value of the difference between the TWAP price of underlying over the first hour and the TWAP price of the underlying over the last hour of their expiration time, measured in UTC.
 
 So, for example, BTC-MOVE 2018-08-30 expires to ABS[(BTC Index TWAP from 2018-08-30 23:00:00-23:59:59 UTC) - (BTC Index TWAP from 2018-08-30 00:00:00-00:59:59 UTC)].
 There will be a new MOVE contract every day to trade the next day's move, in addition to one to trade the current day's move.  There will also be a MOVE contract to trade the current week and the three weeks after it.  Similarly, there will be a new quarterly MOVE contract each quarter, and the three quarters after it will also trade. Every MOVE contract's underlying product is the FTX BTC spot index, and all other references to BTC in this article really mean the BTC index.
 
-##MOVE, Options, & Volatility
+## MOVE, Options, & Volatility
 MOVE contracts are straddles with a strike price equal to the TWAP of the first hour of their expiration period and underlying expiration price equal to the TWAP of the last hour of their expiration period.
 
 A highly volatile product is expected to undergo moves of tremendous magnitude.  If you assume that products follow a Gaussian distribution, then the expected value of the absolute value of a product's move should be sqrt(2/pi) times the product's daily volatility (or weekly volatility for weekly MOVE contracts).  This means that daily MOVE contracts should be worth roughly 80% of the product's daily volatility.
 
-##Margin & MOVE
+## Margin & MOVE
 Each MOVE contract requires margin based on the price of the underlying index.  This means that a single MOVE contract requires the same amount of margin as a single BTC contract despite the tremendous price difference.
 
 If you select 20x leverage and want to sell one BTC-MOVE contract when BTC-MOVE is trading at $1000 and BTC is trading at $40,000, you will post $2,000 of collateral.  This means that the margin treatment of a MOVE contract depends only on its underlying index's price and not at all on the price of the MOVE contract itself.
@@ -43,13 +43,13 @@ This is because the potential variance in a MOVE contract’s price mimics that 
 
 **Note:** If you long MOVE, the amount of margin you must post is capped at the mark price of the MOVE contract.  This means that your required margin is the lesser of the following—the margin you'd need to post based on the index price, or the mark price of the MOVE contract.
 
-##Liquidation
+## Liquidation
 Liquidations for MOVE work the same as liquidations for other contracts, given the margin requirements.  If your total collateral drops below your required maintenance margin, you will begin to get liquidated.
 
-##Fees
+## Fees
 The fees charged on MOVE contracts are the same in magnitude as the fees charged on the underlying spot market.  If your fee rate is 0.04% and you buy one BTC-MOVE when BTC-MOVE is trading at $250 and BTC is trading at $10,000, then your fees will be 0.04% * $10,000 = $4. 
 
-##Extrinsic Value & Time Decay
+## Extrinsic Value & Time Decay
  Time decay is the reduction in the value of an option as the time to the expiration date approaches. An option's time value is how much time plays into the value—or the premium—for the option. The time value declines—or time decay accelerates—as the expiration date gets closer because there's less time for an investor to earn a profit from the option.
 This figure, when calculated, will always be negative, as time only moves in one direction. The countdown for time decay begins as soon as the option is initially bought and continues until expiration. 
 
