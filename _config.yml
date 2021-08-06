@@ -16,7 +16,7 @@
 title: Musings
 email:
 description: Low IQ 2D Human
-twitter_username: 0xShire
+twitter_username:
 github_username: 0xShire
 minimal_mistakes_skin: dark
 search: true
@@ -55,16 +55,10 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "0xShire"
+  name   : "Dan"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Low IQ 2D Human"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://twitter.com/0xShire"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/0xShire"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/0xShire"
@@ -76,9 +70,6 @@ author:
       url: "https://ko-fi.com/0xshire"
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/0xShire"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/0xShire"
