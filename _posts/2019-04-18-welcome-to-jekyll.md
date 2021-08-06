@@ -1,11 +1,11 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2019-04-18T15:34:30-04:00
+title: "FTX MOVE Contracts"
+date: 2019-08-06T09:22:30-05:00
 categories:
   - blog
 tags:
-  - Jekyll
-  - update
+  - FTX
+  - MOVE
 ---
 
 ##What are MOVE contracts?
