@@ -60,3 +60,33 @@ The option with a few months until expiry will have an increased amount of time 
 This is all relevant when considering a MOVE trade because the derivative has a premium attached to it.  If the strike price and index price of the underlying asset are both equal, MOVE will not trade at $0—it will trade at the premium.  
 
 **Example:** Suppose the strike price of the daily MOVE contract is $40,000.  Around midday, BTC falls from $42,000 to $40,000—the index price and strike price are equal at this point.  You take a long MOVE position with a size of 1, paying the cost of the premium.  BTC continues to fall from $40,000 to $39,000, bringing the value of your MOVE position to $1,000 plus the premium.  Three hours later, after a period of consolidation, BTC returns to $40,000—our strike price.  The value of your MOVE contract is once again solely the premium, but now it is a smaller dollar value, and your UPNL is in the red.  This is because time decay (or theta decay) has reduced the value of the premium. 
+
+## Longing MOVE
+First, understand that MOVE possesses a high β to BTC.  Suppose that BTC is trading at $40,000 and the daily MOVE is trading for $400 at strike—the cost of the premium.  Without adjust for time decay, a 1% price increase for BTC ($400) will result in a 100% price increase (also $400) for that daily MOVE contract.  It is leverage for volatility without a directional bias.  
+
+Consider the following scenario:
+![image](https://s3.tradingview.com/snapshots/p/psLYJiPp.png)
+
+Price has compressed between two converging trendlines.  Most chartists would identify this as a symmetrical triangle pattern.  Though it’s statistically likely to break in the direction of continuation, the more certain bet is that the breakout—regardless of direction—will produce a large price swing relative to past action.  If the strike price is located near the center of the formation, we’re able to take a non-directional bet on volatility by longing MOVE.  
+
+If you long MOVE from the daily strike in this scenario, your maximum downside is capped at the value of the premium.  Your potential upside is measured by the magnitude of BTC’s move minus the premium value lost to time decay.  
+
+## Shorting MOVE
+There are generally two reasons to short MOVE—either you expect a callback of volatility, or you want to capture value through time decay.  Suppose BTC opens the trading day with a rise from $40,000 to $42,000 but you expect it to fall back to the opening price by daily close.  When you short 1 daily MOVE contract, you’re selling it for $2000 plus the premium.  When price returns to $40,000 eight hours later and you cover your short, your sole buyback cost is the premium (which has been reduced because of time decay).  In this scenario, you’re profiting from both volatility callback and time decay.  
+
+Similarly, if MOVE opens at a $400 premium and you expect the contract to expire at the strike price, you could take a short position to capture the time decay of that premium as it expires to $0.  
+
+## Understanding Straddles
+A straddle is a neutral options strategy that involves simultaneously buying both a put option and a call option for the underlying security with the same strike price and the same expiration date.
+
+A trader will profit from a long straddle when the price of the security rises or falls from the strike price by an amount more than the total cost of the premium paid. Profit potential is virtually unlimited, so long as the price of the underlying security moves very sharply.
+
+Functionally, BTC MOVE longs function much in the same way a long straddle does.  An entry at strike caps the downside to the amount of the premium while offering unlimited upside.
+
+![image](https://user-images.githubusercontent.com/87942881/128552484-157e8de2-ad30-440d-a3c2-2d7c7478ff27.png)
+
+A MOVE short from strike, then, would mirror a short straddle.  If price stays within the initial boundaries built by the premium, the seller will profit in the absence of volatility.  MOVE shorts, like short straddles, allow trades to profit from the lack of movement in the underlying asset.  Rather than placing a directional bet, a trader can collect the premium while the market remains stagnant.  
+
+Advanced traders might run this strategy to take advantage of a possible decrease in implied volatility. If implied volatility is unusually high without an obvious reason for it being that way, the call and put may be overvalued. In this case, the goal would be to wait for volatility to drop and then close the position for a profit without waiting for expiration.
+
+![Learn More About Straddles](https://tickertape.tdameritrade.com/trading/options-straddle-strangle-volatility-strategies-16208)
