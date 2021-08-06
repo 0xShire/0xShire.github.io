@@ -66,6 +66,7 @@ First, understand that MOVE possesses a high β to BTC.  Suppose that BTC is tra
 
 Consider the following scenario:
 ![image](https://s3.tradingview.com/snapshots/p/psLYJiPp.png)
+[View Original](https://s3.tradingview.com/snapshots/p/psLYJiPp.png)
 
 Price has compressed between two converging trendlines.  Most chartists would identify this as a symmetrical triangle pattern.  Though it’s statistically likely to break in the direction of continuation, the more certain bet is that the breakout—regardless of direction—will produce a large price swing relative to past action.  If the strike price is located near the center of the formation, we’re able to take a non-directional bet on volatility by longing MOVE.  
 
@@ -89,4 +90,4 @@ A MOVE short from strike, then, would mirror a short straddle.  If price stays w
 
 Advanced traders might run this strategy to take advantage of a possible decrease in implied volatility. If implied volatility is unusually high without an obvious reason for it being that way, the call and put may be overvalued. In this case, the goal would be to wait for volatility to drop and then close the position for a profit without waiting for expiration.
 
-![Learn More About Straddles](https://tickertape.tdameritrade.com/trading/options-straddle-strangle-volatility-strategies-16208)
+[Learn More About Straddles](https://tickertape.tdameritrade.com/trading/options-straddle-strangle-volatility-strategies-16208)
