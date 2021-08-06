@@ -9,7 +9,7 @@ tags:
 ---
 
 ## What are MOVE contracts?
-MOVE contracts are a volatility derivative offered by FTX.  Each MOVE contract expires to the absolute value of the amount the underlying asset (BTC) moved on the traded timeframe.  If BTC opens the trading day at $35,000 and closes the day at $36,500, the daily BTC MOVE contract will expire at a value of $1,500.  If BTC falls from $36,500 to $33,000 the next day, for example, that daily MOVE contract would expire to $3,500.
+MOVE contracts are a volatility derivative offered by FTX.  Each MOVE contract expires to the absolute value of the amount the underlying asset (BTC) has moved on the traded timeframe.  If BTC opens the trading day at $35,000 and closes the day at $36,500, the daily BTC MOVE contract will expire at a value of $1,500.  If BTC falls from $36,500 to $33,000 the next day, for example, that daily MOVE contract would expire to $3,500.
 
 ## MOVE Contract Types
 MOVE contracts are offered in three varieties on FTX—daily, weekly, and quarterly.
