@@ -1,0 +1,28 @@
+---
+title: "Intro To Volatility Trading With Options"
+date: 2019-08-27T19:04:30-05:00
+categories:
+  - blog
+tags:
+  - Options
+  - Volatility
+---
+
+## Volatility And Derivatives
+The rapid growth of digital assets has led to the creation of multiple crypto derivative markets, the most robust being those constructed around Bitcoin and Ethereum. Altcoins as well, however, have started to see futures markets and OTC option markets develop as traders have increasingly demanded tools to manage risk and capture yield.
+
+For Bitcoin and Ethereum, analysis of these derivative markets can provide insight into likely future price movements. Similarly, they can provide clues as to how a trader should construct portfolios for risk management and alpha generation.
+
+## Options
+Options are financial instruments that are derivatives based on the value of underlying securities such as stocks. An options contract offers the buyer the opportunity to buy or sell—depending on the type of contract they hold—the underlying asset. Unlike futures, the holder is not required to buy or sell the asset if they choose not to.
+
+- Call options allow the holder to buy the asset at a stated price within a specific timeframe.
+- Put options allow the holder to sell the asset at a stated price within a specific timeframe.
+
+Each option contract will have a specific expiration date by which the holder must exercise their option. The stated price on an option is known as the strike price. Options are typically bought and sold through online or retail brokers.
+
+Contract periods longer than a week always expire on the last Friday of every month, while weekly options expire Friday each week. The number of expiration dates and strikes will vary based on a particular exchange's liquidity (or the amount of capital changing hands). 
+
+Deribit, which hosts most of the digital asset options volume for Bitcoin and Ethereum, offers weekly options expirations for one month out, monthly expirations for one quarter out, and quarterly expirations one year out. Strike prices are less regular than expiration dates but always cluster around the spot price of the underlying asset. New strike prices will be added to the exchange if the price of the underlying asset changes significantly or if there is sufficient customer demand for a particular strike.
+
+## The Greeks
