@@ -42,4 +42,25 @@ Since implied volatility is forward-looking, it helps us gauge the sentiment abo
 
 - When you discover options that are trading with low implied volatility levels, consider buying strategies. Such strategies include buying calls, puts, long straddles, and debit spreads. With relatively cheap time premiums, options are more attractive to purchase and less desirable to sell. Many options investors use this opportunity to purchase long-dated options and look to hold them through a forecasted volatility increase.
 
-![image](https://user-images.githubusercontent.com/87942881/131199909-0516950d-fa46-4afe-8a90-f2c21e3f29a7.png)
+![image](https://user-images.githubusercontent.com/87942881/131200154-635d744d-11cc-4f2a-9976-79022aae409f.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131200154-635d744d-11cc-4f2a-9976-79022aae409f.png)
+
+## Realized Volatility
+Realized volatility (RV) is the standard deviation of the market move, usually measured over a
+trailing time series (30 days, 7 days). Realized volatility differs from implied volatility in that implied
+volatility is based on the future expected price moves, derived from the pricing of options contracts,
+while realized volatility is derived from the realized price action of the underlying asset.
+
+![image](https://user-images.githubusercontent.com/87942881/131200239-c7ff8009-a868-4c68-b457-f4701ab2e29f.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131200239-c7ff8009-a868-4c68-b457-f4701ab2e29f.png)
+
+## Realized / Implied Volatility Divergence
+The divergence between implied volatility and realized volatility, coupled with other metrics, can help gauge market sentiment and directional propensity. It is generally the case that implied volatility is higher than realized volatility, as the expectation of volatility commands a premium in option markets for the uncertainty surrounding future price moves. When the divergence between realized volatility and implied volatility reaches statistically significant divergent levels, this can portend a change in the volatility regime, as volatility, in general, tends to oscillate within a range. Just as spot prices do not always go up, volatility does not always remain low, and this oscillation is precisely what allows derivative traders to generate alpha.
+
+## Skew
+Skew is the difference in implied volatility (IV) between out-of-the-money options, at-the-money options, and in-the-money options. The volatility skew, which is affected by sentiment and the supply and demand relationship of particular options in the market, provides information on whether fund managers prefer to write calls or puts.
+
+When options traders are willing to pay more for downside strikes (puts) than upside strikes (calls) there is said to be a bearish skew in markets. Investors can use these metrics to anticipate future price movements, or to take contrarian positions, betting against skew and selling “overpriced” option premia.
+
+Trading around Skew typically involves trading a spread in which the long option is closer to the money, with lower implied volatility, and the short option is traded further out of the money where higher implied volatility exists. The goal is to capture the spread in volatility as skew normalizes and closes the volatility gap. Non-standard ratio spreads are a good way to trade around skewness and capitalize on the ebb and flow of volatility
+
