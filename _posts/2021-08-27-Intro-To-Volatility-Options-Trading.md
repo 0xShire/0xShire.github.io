@@ -1,6 +1,6 @@
 ---
 title: "Intro To Volatility Trading With Options"
-date: 2019-08-27T19:04:30-05:00
+date: 2021-08-27T19:04:30-05:00
 categories:
   - blog
 tags:
