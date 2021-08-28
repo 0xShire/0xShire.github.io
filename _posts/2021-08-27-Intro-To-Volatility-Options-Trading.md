@@ -14,7 +14,7 @@ The rapid growth of digital assets has led to the creation of multiple crypto de
 For Bitcoin and Ethereum, analysis of these derivative markets can provide insight into likely future price movements. Similarly, they can provide clues as to how a trader should construct portfolios for risk management and alpha generation.
 
 ## Options
-Options are financial instruments that are derivatives based on the value of underlying securities such as stocks. An options contract offers the buyer the opportunity to buy or sell—depending on the type of contract they hold—the underlying asset. Unlike futures, the holder is not required to buy or sell the asset if they choose not to.
+Options are financial derivatives based on the value of underlying assets. An options contract offers the buyer the opportunity to buy or sell (depending on the type of contract they hold) the underlying asset. Unlike futures, the holder is not required to buy or sell the asset if they choose not to.
 
 - Call options allow the holder to buy the asset at a stated price within a specific timeframe.
 - Put options allow the holder to sell the asset at a stated price within a specific timeframe.
