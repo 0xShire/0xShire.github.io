@@ -64,3 +64,44 @@ When options traders are willing to pay more for downside strikes (puts) than up
 
 Trading around Skew typically involves trading a spread in which the long option is closer to the money, with lower implied volatility, and the short option is traded further out of the money where higher implied volatility exists. The goal is to capture the spread in volatility as skew normalizes and closes the volatility gap. Non-standard ratio spreads are a good way to trade around skewness and capitalize on the ebb and flow of volatility
 
+![image](https://user-images.githubusercontent.com/87942881/131200315-40da80ca-783a-4536-b978-3a48abac0411.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131200315-40da80ca-783a-4536-b978-3a48abac0411.png)
+
+## Put / Call Ratio
+The Put to Call ratio is the ratio of the trading volume of put options to call options and is used as an indicator of investor sentiment in the markets. When the value exceeds 1, it indicates that more puts are being purchased and traders are expecting a move lower. Conversely, a reading below 1 would indicate that traders are net bullish on the future price and are purchasing more calls.
+
+Monitoring this ratio provides some insight into the overall sentiment of option market participants, and although it may not always provide actionable trade execution, it can provide instruction on how to manage a larger portfolio, and longer duration option positions.
+
+ As the Put/Call ratio enters statistically high and low ranges, ranked across previous cycles, these open interest levels may serve as warning flags that conditions could fluctuate, oscillating between stability and volatility
+
+One way to interpret the put-call ratio is to say that a higher ratio means it's time to sell and a lower ratio means it's time to buy. That's because when the ratio is high it suggests that people are either expecting or protecting more readily against a future decline in the price of the underlying. A put-call ratio between 0.5 and 1 is considered a sideways trend in the markets.
+
+Some also view the put-call ratio as a contrarian indicator. Traders know that derivatives are used to do more than place bets; they are used as hedges and insurance. If there's a lot of insurance being placed to the sell side, it means traders are worried about prices falling.
+
+Some traders buy when the put-call ratio is above 1, meaning the market is out of balance to the sell side, and sell when the put-call ratio is below 1, meaning the market is out of balance to the buy side. These traders are looking to make money on the correction. The interpretation of the ratio is left to the analyst's or trader's investment philosophy.
+
+![image](https://user-images.githubusercontent.com/87942881/131200637-3b479153-dfeb-4713-8654-ab358230edd4.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131200637-3b479153-dfeb-4713-8654-ab358230edd4.png)
+
+## Trading Volatility 
+By combining data from the derivatives markets, you can take advantage of market structure and better position protective positions or speculative long positions to simultaneously reduce costs (premium paid) and anticipate volatility. 
+
+While any single indicator is likely inadequate to make definitive adjustments to the portfolio, using the above-mentioned derivative metrics like Implied Volatility, Skew, and Put/Call Ratios together provide a more holistic approach to building both long and short volatility portfolios.
+
+## Long & Short Volatility Positions
+Consider markets amid a statistically “low volatility” environment relative to previous volatility cycles. During low volatility conditions it is not beneficial to maintain short volatility positions—the risk/reward is dangerous. Volatility premiums are generally too low to make it worth the risk to be a seller. 
+
+These environments are often better managed using options spreads to offset volatility exposure and express delta. Short delta (expected move down) in a low volatility environment can be expressed by a Long Put Spread (PS), Naked Put, or Short Call Spread (CS).  All of these are preferable to selling naked calls. 
+
+If the market is in a period of extremely low volatility and option premiums become statistically inexpensive, you should look to enter long volatility strategies.  Strangles and Long Iron Condors are ways to capture the future price volatility when it returns. Long option positions in a low volatility environment will benefit from directional moves (Delta Δ) as well as expansion in Vega (ν) and Gamma (Γ).
+
+![image](https://user-images.githubusercontent.com/87942881/131200747-5ba2c9d7-c8e8-40f9-a97b-d8710eeb4003.png)
+
+![image](https://user-images.githubusercontent.com/87942881/131200755-aea7575e-def7-4793-9712-0028287f682f.png)
+
+## Hedge Positions vs. Speculative Positions
+The responsibility of maintaining hedge positions to offset core portfolio Delta is generally non-negotiable. While the delta ratio of a derivative portfolio vs. spot can vary within a range of targeted short deltas, the deltas of the hedge vs. core portfolio should always remain inversely correlated, or protective into tail events. 
+
+Speculative positions, however, can be far more dynamic with regard to the total holding time, profit targets, and delta expression.
+
+
