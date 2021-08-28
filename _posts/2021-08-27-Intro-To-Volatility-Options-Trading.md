@@ -156,3 +156,29 @@ September 30 Option Chain - 34 DTE Long $45,000 x $40,000 Put Spread 1x1
 [Enlarge](https://user-images.githubusercontent.com/87942881/131201200-052ce036-ebbc-4c0b-9103-b1a5a145a9a9.png)
 
 This spread takes advantage of a low volatility environment and provides asymmetric downside risk mitigation. 
+
+## Volatility Regime Changes
+When volatility moves from Low to High, existing positions that are long volatility benefit from rising vega and gamma and will become profitable. At this point proper management of positions is critical. Consider the long September Put Spread examples above with short Delta. 
+
+As underlying spot price moves lower, the opportunity to “leg into” the remainder of a position or generate a new derivative construct allows profit capture and delta adjustments.
+
+## Long Put Spread: Low to High Volatility
+Suppose you established a Long $50k x $46k Put Spread (3SEP21 expiry) and a shift in market volatility or outlook suggests that you should leg into a different position.  There are various ways this can be achieved.  
+
+Initial Position:
+![image](https://user-images.githubusercontent.com/87942881/131201525-65d2bdad-5b7a-4f0e-8b68-e78d14f8df48.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131201525-65d2bdad-5b7a-4f0e-8b68-e78d14f8df48.png)
+
+Suppose price drops to your maximum profit strike of $46k, but you now expect it to drop all the way to $42k.  You can roll your spread down to shift your position.  For example, in one order you could sell-to-close your $50k put for maximum profits, buy-to-close your $46k put, buy-to-open another $46k put, and sell-to-open a $42k put.  Additionally, selling your initial Put Spread enables your portfolio to capture the changes that have occurred in Delta and Vega while also establishing a net credit position.  This becomes a risk-free trade that offers a small negative Delta and neutral Theta.
+
+This “rolls” the maximum profit strike level down to your new target:
+![image](https://user-images.githubusercontent.com/87942881/131201556-8ca1c25b-7f88-43e9-b601-9db35da4a8a7.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131201556-8ca1c25b-7f88-43e9-b601-9db35da4a8a7.png)
+
+Suppose volatility declines as price reaches your $42k strike and you believe there’s a strong chance price will stay near that price level for a length of time.  You can represent that belief with a trade by building a Put Butterfly.  To achieve this, you would sell-to-open another Put at your $42k strike and buy-to-open a Put at $38k.  
+
+It would look a little something like this:
+![image](https://user-images.githubusercontent.com/87942881/131201571-5e7eec47-ab16-490d-8e55-a454316efb15.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131201571-5e7eec47-ab16-490d-8e55-a454316efb15.png)
+
+As you can see, the initial Put Spread allows a great deal of flexibility should you decide to restructure your portfolio.  For this reason, it’s an attractive starting position in a low-volatility environment.  
