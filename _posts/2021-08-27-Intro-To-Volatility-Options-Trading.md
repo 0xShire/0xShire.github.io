@@ -116,6 +116,7 @@ Long $49,000 x $44,000 Put Spread 1x1
 - Max Risk: $2,154.47
 - Max Reward: $2,845.53
 - R-Multiple: 1.32
+
 ![image](https://user-images.githubusercontent.com/87942881/131201022-6f3dd694-5df9-43bb-844f-c2934901007e.png)
 [Enlarge](https://user-images.githubusercontent.com/87942881/131201022-6f3dd694-5df9-43bb-844f-c2934901007e.png)
 
@@ -123,6 +124,7 @@ Long $47,000 x $44,000 Put Spread 1x1
 - Max Risk: $1,230.40
 - Max Reward: $1,769.60
 - R-Multiple: 1.44
+
 ![image](https://user-images.githubusercontent.com/87942881/131201052-2dd40101-5fc4-46a8-b97e-a224597fb023.png)
 [Enlarge](https://user-images.githubusercontent.com/87942881/131201052-2dd40101-5fc4-46a8-b97e-a224597fb023.png)
 
@@ -130,13 +132,15 @@ Long $45,000 x $43,000 Put Spread 1x1
 - Max Risk: $719.06
 - Max Reward: $1,280.94
 - R-Multiple: 1.78
+
 ![image](https://user-images.githubusercontent.com/87942881/131201083-fda6377e-dbed-4bb6-9027-88ce3eea82d1.png)
 [Enlarge](https://user-images.githubusercontent.com/87942881/131201083-fda6377e-dbed-4bb6-9027-88ce3eea82d1.png)
 
 Long $42,000 x $40,000 Put Spread 1x1
-Max Risk: $431.13
-Max Reward: $1,568.87
-R-Multiple: 3.64
+- Max Risk: $431.13
+- Max Reward: $1,568.87
+- R-Multiple: 3.64
+
 ![image](https://user-images.githubusercontent.com/87942881/131201104-99b58957-3f57-4c75-99a5-4be8a11ff25c.png)
 [Enlarge](https://user-images.githubusercontent.com/87942881/131201104-99b58957-3f57-4c75-99a5-4be8a11ff25c.png)
 
