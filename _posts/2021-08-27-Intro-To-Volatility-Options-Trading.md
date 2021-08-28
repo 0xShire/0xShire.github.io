@@ -104,4 +104,51 @@ The responsibility of maintaining hedge positions to offset core portfolio Delta
 
 Speculative positions, however, can be far more dynamic with regard to the total holding time, profit targets, and delta expression.
 
+## Structuring A Low Volatility Portfolio
+![image](https://user-images.githubusercontent.com/87942881/131200896-d337d504-1f31-4ad4-883b-4f6b5d2e849d.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131200896-d337d504-1f31-4ad4-883b-4f6b5d2e849d.png)
 
+The above market conditions indicate a tightening of the price range with declining volatility.  These conditions encourage long premium positions as option prices compress.
+
+The following are sampled Put Spreads for low volatility conditions.  At the time of writing, price of the underlying is $48,864.
+
+Long $49,000 x $44,000 Put Spread 1x1
+- Max Risk: $2,154.47
+- Max Reward: $2,845.53
+- R-Multiple: 1.32
+![image](https://user-images.githubusercontent.com/87942881/131201022-6f3dd694-5df9-43bb-844f-c2934901007e.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131201022-6f3dd694-5df9-43bb-844f-c2934901007e.png)
+
+Long $47,000 x $44,000 Put Spread 1x1
+- Max Risk: $1,230.40
+- Max Reward: $1,769.60
+- R-Multiple: 1.44
+![image](https://user-images.githubusercontent.com/87942881/131201052-2dd40101-5fc4-46a8-b97e-a224597fb023.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131201052-2dd40101-5fc4-46a8-b97e-a224597fb023.png)
+
+Long $45,000 x $43,000 Put Spread 1x1
+- Max Risk: $719.06
+- Max Reward: $1,280.94
+- R-Multiple: 1.78
+![image](https://user-images.githubusercontent.com/87942881/131201083-fda6377e-dbed-4bb6-9027-88ce3eea82d1.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131201083-fda6377e-dbed-4bb6-9027-88ce3eea82d1.png)
+
+Long $42,000 x $40,000 Put Spread 1x1
+Max Risk: $431.13
+Max Reward: $1,568.87
+R-Multiple: 3.64
+![image](https://user-images.githubusercontent.com/87942881/131201104-99b58957-3f57-4c75-99a5-4be8a11ff25c.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131201104-99b58957-3f57-4c75-99a5-4be8a11ff25c.png)
+
+As strike price moves further (OTM) from the index price, the cost of each spread and probability of profit (PoP) decreases while the risk / reward profile increases.
+Now let's look further out in duration:
+
+September 30 Option Chain - 34 DTE Long $45,000 x $40,000 Put Spread 1x1
+- Max Risk: $1,732.76
+- Max Reward: $3,267.24
+- R-Multiple: 1.89
+
+![image](https://user-images.githubusercontent.com/87942881/131201200-052ce036-ebbc-4c0b-9103-b1a5a145a9a9.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131201200-052ce036-ebbc-4c0b-9103-b1a5a145a9a9.png)
+
+This spread takes advantage of a low volatility environment and provides asymmetric downside risk mitigation. 
