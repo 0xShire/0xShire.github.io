@@ -46,16 +46,16 @@ Since implied volatility is forward-looking, it helps us gauge the sentiment abo
 [Enlarge](https://user-images.githubusercontent.com/87942881/131200154-635d744d-11cc-4f2a-9976-79022aae409f.png)
 
 ## Realized Volatility
-Realized volatility (RV) is the standard deviation of the market move, usually measured over a
-trailing time series (30 days, 7 days). Realized volatility differs from implied volatility in that implied
-volatility is based on the future expected price moves, derived from the pricing of options contracts,
-while realized volatility is derived from the realized price action of the underlying asset.
+Realized volatility (RV) is the standard deviation of the market move and is often measured over a
+trailing time series (7D & 30D series being the most common). Realized volatility differs from implied volatility in one significant fashion—implied
+volatility is based on future anticipated price moves (derived from the pricing of options contracts)
+while realized volatility is derived from the actual price action of the underlying asset.
 
 ![image](https://user-images.githubusercontent.com/87942881/131200239-c7ff8009-a868-4c68-b457-f4701ab2e29f.png)
 [Enlarge](https://user-images.githubusercontent.com/87942881/131200239-c7ff8009-a868-4c68-b457-f4701ab2e29f.png)
 
 ## Realized / Implied Volatility Divergence
-The divergence between implied volatility and realized volatility, coupled with other metrics, can help gauge market sentiment and directional propensity. It is generally the case that implied volatility is higher than realized volatility, as the expectation of volatility commands a premium in option markets for the uncertainty surrounding future price moves. When the divergence between realized volatility and implied volatility reaches statistically significant divergent levels, this can portend a change in the volatility regime, as volatility, in general, tends to oscillate within a range. Just as spot prices do not always go up, volatility does not always remain low, and this oscillation is precisely what allows derivative traders to generate alpha.
+The divergence between implied volatility and realized volatility, coupled with other metrics, can help gauge market sentiment and the likelihood of a directional movement. Most often, implied volatility is higher than realized volatility as the expectation of volatility commands a premium in option markets for the uncertainty surrounding future price moves. When the divergence between realized volatility and implied volatility reaches statistically significant levels, this can indicate a likely change in the volatility regime. 
 
 ## Skew
 Skew is the difference in implied volatility (IV) between out-of-the-money options, at-the-money options, and in-the-money options. The volatility skew, which is affected by sentiment and the supply and demand relationship of particular options in the market, provides information on whether fund managers prefer to write calls or puts.
