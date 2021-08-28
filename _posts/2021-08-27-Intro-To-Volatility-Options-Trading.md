@@ -176,7 +176,7 @@ This “rolls” the maximum profit strike level down to your new target:
 ![image](https://user-images.githubusercontent.com/87942881/131201556-8ca1c25b-7f88-43e9-b601-9db35da4a8a7.png)
 [Enlarge](https://user-images.githubusercontent.com/87942881/131201556-8ca1c25b-7f88-43e9-b601-9db35da4a8a7.png)
 
-Suppose volatility declines as price reaches your $42k strike and you believe there’s a strong chance price will stay near that price level for a length of time.  You can represent that belief with a trade by building a Put Butterfly.  To achieve this, you would sell-to-open another Put at your $42k strike and buy-to-open a Put at $38k.  
+Suppose volatility declines as price reaches your $42k strike and you believe there’s a strong chance price will stay near that level for a length of time.  You can represent that belief with a trade by building a Put Butterfly.  To achieve this, you would sell-to-open another Put at your $42k strike and buy-to-open a Put at $38k.  
 
 It would look a little something like this:
 ![image](https://user-images.githubusercontent.com/87942881/131201571-5e7eec47-ab16-490d-8e55-a454316efb15.png)
