@@ -26,7 +26,8 @@ Contract periods longer than a week always expire on the last Friday of every mo
 Deribit, which hosts most of the digital asset options volume for Bitcoin and Ethereum, offers weekly options expirations for one month out, monthly expirations for one quarter out, and quarterly expirations one year out. Strike prices are less regular than expiration dates but always cluster around the spot price of the underlying asset. New strike prices will be added to the exchange if the price of the underlying asset changes significantly or if there is sufficient customer demand for a particular strike.
 
 ## The Greeks
-![image](https://user-images.githubusercontent.com/87942881/131199847-e7db5acf-864a-4f5a-b56d-0cd817b049f2.png)
+![image](https://user-images.githubusercontent.com/87942881/131202505-59b64623-faf9-4de1-af5a-d35c8f33c758.png)
+[Enlarge](https://user-images.githubusercontent.com/87942881/131202505-59b64623-faf9-4de1-af5a-d35c8f33c758.png)
 
 ## Implied Volatility
 
